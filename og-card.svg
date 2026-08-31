@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4f0e8"/>
+      <stop offset="1" stop-color="#e9e2d7"/>
+    </linearGradient>
+    <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a82c4d" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#a82c4d" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card">
+      <rect width="1200" height="630" rx="30"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <g opacity=".22" stroke="#7f1734" fill="none">
+      <circle cx="1130" cy="150" r="380"/>
+      <circle cx="1130" cy="150" r="245"/>
+      <circle cx="1130" cy="150" r="110"/>
+    </g>
+    <g opacity=".15" stroke="#17181a">
+      <path d="M0 90h1200M0 180h1200M0 270h1200M0 360h1200M0 450h1200M0 540h1200"/>
+      <path d="M90 0v630M180 0v630M270 0v630M360 0v630M450 0v630M540 0v630M630 0v630M720 0v630M810 0v630M900 0v630M990 0v630M1080 0v630M1170 0v630"/>
+    </g>
+    <circle cx="76" cy="72" r="28" fill="#7f1734"/>
+    <text x="76" y="81" fill="#fffdf8" font-family="Georgia, serif" font-size="20" text-anchor="middle">DW</text>
+    <text x="122" y="80" fill="#17181a" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="600">DANIEL WANG</text>
+    <text x="72" y="265" fill="#17181a" font-family="Georgia, serif" font-size="74">Research &amp; Projects</text>
+    <text x="76" y="325" fill="#7f1734" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="600" letter-spacing="2">QUANTUM ENGINEERING · 2D MATERIALS · OPTOELECTRONICS</text>
+    <path d="M720 525c65-4 92-18 126-64 31-42 42-139 75-136 37 4 30 120 75 136 34 12 50-60 80-55 37 6 29 101 124 116v40H720Z" fill="url(#fill)"/>
+    <path d="M720 525c65-4 92-18 126-64 31-42 42-139 75-136 37 4 30 120 75 136 34 12 50-60 80-55 37 6 29 101 124 116" fill="none" stroke="#7f1734" stroke-width="4"/>
+    <text x="76" y="552" fill="#595956" font-family="DejaVu Sans, sans-serif" font-size="20">University of Chicago · Pritzker School of Molecular Engineering</text>
+  </g>
+</svg>
